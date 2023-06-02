@@ -12,7 +12,7 @@ A tool for creating reports and charts for tracking weight loss progress, calori
 - Python 3
 - MyFitnessPal account
 - myfitnesspal python api (https://github.com/coddingtonbear/python-myfitnesspal)
-- weight data from bodytrax (https://github.com/judgewooden/boditrax)
+- Weight data from boditrax (https://github.com/judgewooden/boditrax)
 
 ## Additional support
 - Create issue on github for bug or feature request
