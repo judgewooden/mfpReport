@@ -1,0 +1,296 @@
+{
+  "locale": "en_GB.UTF-8",
+  "mfp_csv_file": "data/myfitnesspal_data.csv",
+  "weight_csv_file": "data/boditrax.csv",
+  "alcohol": "feest",
+  "birthday": "1967-03-13",
+  "gender": "male",
+  "height": "186",
+  "dieet_start": "2021-10-01",
+  "formula": "bmr_katch_mcardle",
+  "multiplier": 1.2,
+  "output_directory": "output",
+  "slip_up": -200,
+  "landscape_width": 11,
+  "landscape_height": 8.5,
+  "report_css_file": "report.css",
+  "tooltip": false,
+  "pdf_options": {
+    "page-size": "Letter",
+    "orientation": "landscape",
+    "encoding": "UTF-8",
+    "dpi": "80",
+    "custom-header": [
+      [
+        "Accept-Encodinglocale",
+        "gzip"
+      ]
+    ],
+    "enable-local-file-access": true
+  },
+  "daylabels": [
+    "mon",
+    "tue",
+    "wed",
+    "thu",
+    "fri",
+    "sat",
+    "sun"
+  ],
+  "monthlabels": [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct",
+    "nov",
+    "dec"
+  ],
+  "scatter": {
+    "snacks": {
+      "name": "Inbetween",
+      "color": "red",
+      "max": 500,
+      "show": false
+    },
+    "adjusted": {
+      "name": "smartwatch",
+      "color": "black",
+      "max": 5,
+      "show": false
+    },
+    "feest": {
+      "name": "alchohol",
+      "color": "blue",
+      "max": 5,
+      "show": true
+    },
+    "fitness": {
+      "name": "sport activity",
+      "color": "green",
+      "max": 10,
+      "show": true
+    }
+  },
+  "meals": {
+    "breakfast": {
+      "name": "early morning",
+      "class": "black",
+      "show": true
+    },
+    "lunch": {
+      "name": "around noon",
+      "class": "black",
+      "show": true
+    },
+    "dinner": {
+      "name": "early evening",
+      "class": "black",
+      "show": true
+    },
+    "snacks": {
+      "name": "eating snacks",
+      "class": "black",
+      "show": true
+    },
+    "feest": {
+      "name": "alcohol",
+      "class": "black",
+      "show": true
+    },
+    "exercise": {
+      "name": "sports",
+      "class": "black",
+      "show": true
+    }
+  },
+  "totals": {
+    "total-calories": {
+      "name": "calories",
+      "class": "red",
+      "show": true
+    },
+    "total-food_only": {
+      "name": "food",
+      "class": "magenta",
+      "show": true
+    },
+    "total-goal": {
+      "name": "goal",
+      "class": "green",
+      "show": false
+    },
+    "total-bmr": {
+      "name": "bmr impact",
+      "class": "blue",
+      "show": true
+    },
+    "total-fat": {
+      "name": "fat",
+      "class": "zwart",
+      "show": false
+    }
+  },
+  "return_on": {
+    "strength training": "gym",
+    "vitamine": "vitamins",
+    "bicycling": "cycling",
+    "garmin connect calorie adjustment": "smartwatch adjustment"
+  },
+  "remove_parts": [
+    "del monte",
+    "grand italia",
+    "blue band",
+    "complex forte",
+    "golden delicious",
+    "tomato flavour",
+    "grana padano",
+    "best foods",
+    "golden hills",
+    "craft beer",
+    "albert hein",
+    "fin carre",
+    "mrs balls",
+    "smith & jones",
+    "britanny s",
+    "de cecco",
+    "home made",
+    "alcohol free",
+    "malaysian food",
+    "weihenstephaner",
+    "whole foods",
+    "1\u00bd tsp salt",
+    "veuve clicquot",
+    "hamkas chips"
+  ],
+  "remove_words": [
+    "original",
+    "excellent",
+    "middel",
+    "royal",
+    "arla",
+    "ah",
+    "lidl",
+    "plus",
+    "generic",
+    "lisanne",
+    "crazy",
+    "honig",
+    "oldenlander",
+    "bio",
+    "danone",
+    "tropical",
+    "rotisserie",
+    "vemondo",
+    "costco",
+    "nestle",
+    "bona",
+    "salted",
+    "sandwich",
+    "iglo",
+    "excellent",
+    "supradyn",
+    "nice",
+    "homemade",
+    "dutch",
+    "bioitalia",
+    "regular",
+    "fresh",
+    "2022",
+    "2023",
+    "snacks",
+    "wholey",
+    "coop",
+    "ahh",
+    "skinless",
+    "aldi",
+    "knorr",
+    "cooked",
+    "besos",
+    "almhof",
+    "mora",
+    "perfect",
+    "grand'italia",
+    "kfc",
+    "wisconsin",
+    "doritos",
+    "organic",
+    "nadececco",
+    "lurpak",
+    "heinz",
+    "k",
+    "sb",
+    "weathers",
+    "stach",
+    "bonduelle",
+    "g\u00fc",
+    "armstrong",
+    "kroger",
+    "iceland",
+    "bertolli",
+    "simply",
+    "drained",
+    "basis",
+    "epicurean",
+    "mild",
+    "yildriz",
+    "bondulle",
+    "maggie",
+    "maggi",
+    "mixed",
+    "double",
+    "dessert",
+    "factory",
+    "naturel",
+    "old",
+    "fruit",
+    "lu",
+    "fatsecret",
+    "oaklands",
+    "nesquick",
+    "lay's",
+    "mochi",
+    "borek",
+    "dolce"
+  ],
+  "replace_parts_before": {
+    ",": " ",
+    "-": " ",
+    "%": " ",
+    "\\(": " ",
+    "\\)": " ",
+    "\\*": " ",
+    "#": " ",
+    "\u00a0": " "
+  },
+  "replace_parts_after": {
+    "lovilio queso dop": "parmesan",
+    "lasagne all'uovo": "lasagne",
+    "toasted cheese 1": "toasted cheese",
+    "pomodoro": "tomatos",
+    "cheeseburger burger": "cheeseburger",
+    "rice white long grain": "rice",
+    "max original flavour": "chips",
+    "tony's chocolonely": "chocolade",
+    "gramme$": "g",
+    " s$": "g",
+    " kgg$": "kg",
+    " gramo$": "g",
+    " gramm$": "g",
+    " gram$": "g",
+    " gr$": "g",
+    " g$": "g",
+    " oz$": "oz",
+    " ml$": "ml",
+    "\\.0g$": "g",
+    "^\\/": " ",
+    "^\\.": " "
+  },
+  "rename": {
+  }
+}
